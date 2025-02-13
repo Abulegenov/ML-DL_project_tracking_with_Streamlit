@@ -14,13 +14,13 @@ Although it might seem to be the cheap imitation of CLearML, it is not. ClearMl 
 First of all, manage all your tools used to track your projects separately (in case you don't use complex open-source or company subscribed tool): prepare dataset regulating and visualizing tools, model version controlling tool, files version controlling tool, task management tool. Prepare your training and evaluation scripts and create APIs that would accept files and folders to be trained on and inferenced.
 
 ## How to deploy it locally?
-See [link](This github page)
+See [How to deploy locally](https://github.com/Abulegenov/Local_DEPLOY_with_SCREEN))
 
 
 ## Overall Structure
 - **General Information**: Provides the general information about the project: models used, pipeline, expected results, tools integrated, might include team contact information. 
-- **Dataset Information**: Provides the information about the current dataset amount & nature. Includes links to external dataset visualization tools like FiftyOne. Could have progress bar into achieving the dataset number 
-- **Add Dataset**: Uses the CVAT API to keep an eye on dataset annotations' statuses and assignees. Includes methods to download ready (Completed) annotations and add those annotation files into current annotation file
+- **Dataset Information**: Provides the information about the current dataset amount & nature. Includes links to external dataset visualization tools like FiftyOne. Could have progress bar into achieving the dataset number
+- **Add Dataset**: Uses the CVAT API to keep an eye on dataset annotations' statuses and assignees. Includes methods to download ready (Completed) annotations and add those annotation files into current annotation file. Also, you can include AWS S3 APIs or any cloud storage your company uses for dataset storage and run them whenever new dataset is created.
 - **Train**: Lets you choose the dataset to run the training by requesting into running FastAPI backend of training script as well as indicating hyperparameters. Includes the link to MLflow for tracking the losses and etc (might as well be visualized in this tab by analyzing mlflow model running artefacts)
 - **Task & Hypothesis & Updates Management**: Keeps track of project tasks, hypotheses, and updates. Provides the list of tasks from Linear or Jira to be completed within this week. Project leaders also might write their comments and developers might log their updates.
 - **Inference on single image**: Upload an image (or datapoint) and run a quick inference on selected model.
