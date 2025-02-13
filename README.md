@@ -8,13 +8,13 @@ This app saves time and makes it easier to track and manage ML projects without 
 I had a problem of going here and there between separate tools, which caused a sense of unclear vision of a whole project and wanted to zoom out a little bit. That's why the idea of collecting everything related to a project into a single place came up. Moreover, having such tool would easily help project leaders to track the process and overall job done.
 
 ## ClearML?
-Although it might seem to be the cheap imitation of CLearML, it is not. ClearMl provides vast functionality in data & model versioning, training and inferencing and etc., but still you would need the place to track the dataset creation/annotation like CVAT, the task tracking tool like Jira or Linear, separate data visualization tool or you might just want to develop a model first before uploading it to ClearMl and want to evaluate intermediary results. That's why this app might be handy. Also, it is still possible to integrate all APIs in this app, shortly, sky is the limit :)
+Although it might seem to be the cheap imitation of CLearML, it is not. ClearML provides vast functionality in data & model versioning, training and inferencing and etc., but still you would need the place to track the dataset creation/annotation like CVAT, the task tracking tool like Jira or Linear, separate data visualization tool or you might just want to develop a model first before uploading it to ClearML and want to evaluate intermediary results. That's why this app might be handy. Also, it is still possible to integrate all APIs (ClearML's also) in this app, shortly, sky is the limit :)
 
 ## How to best use it?
 First of all, manage all your tools used to track your projects separately (in case you don't use complex open-source or company subscribed tool): prepare dataset regulating and visualizing tools, model version controlling tool, files version controlling tool, task management tool. Prepare your training and evaluation scripts and create APIs that would accept files and folders to be trained on and inferenced.
 
 ## How to deploy it locally?
-See [How to deploy locally](https://github.com/Abulegenov/Local_DEPLOY_with_SCREEN))
+See [How to deploy locally](https://github.com/Abulegenov/Local_DEPLOY_with_SCREEN)
 
 
 ## Overall Structure
