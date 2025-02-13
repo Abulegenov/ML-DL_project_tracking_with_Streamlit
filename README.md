@@ -8,7 +8,7 @@ This app saves time and makes it easier to track and manage ML projects without 
 I had a problem of going here and there between separate tools, which caused a sense of unclear vision of a whole project and wanted to zoom out a little bit. That's why the idea of collecting everything related to a project into a single place came up. Moreover, having such tool would easily help project leaders to track the process and overall job done.
 
 ## ClearML?
-Although it might seem to be the cheap imitation of CLearML, it is not. ClearML provides vast functionality in data & model versioning, training and inferencing and etc., but still you would need the place to track the dataset creation/annotation like CVAT, the task tracking tool like Jira or Linear, separate data visualization tool or you might just want to develop a model first before uploading it to ClearML and want to evaluate intermediary results. That's why this app might be handy. Also, it is still possible to integrate all APIs (ClearML's also) in this app, shortly, sky is the limit :)
+Although it might seem to be the imitation of CLearML, it is not. ClearML provides vast functionality in data & model versioning, training and inferencing and etc., but still you would need the place to track the dataset creation/annotation like CVAT, the task tracking tool like Jira or Linear, separate data visualization tool or you might just want to develop a model first before uploading it to ClearML and want to evaluate intermediary results. That's why this app might be handy. Also, it is still possible to integrate all APIs (ClearML's also) in this app, shortly, sky is the limit :)
 
 ## How to best use it?
 First of all, manage all your tools used to track your projects separately (in case you don't use complex open-source or company subscribed tool): prepare dataset regulating and visualizing tools, model version controlling tool, files version controlling tool, task management tool. Prepare your training and evaluation scripts and create APIs that would accept files and folders to be trained on and inferenced.
@@ -29,6 +29,9 @@ See [How to deploy locally](https://github.com/Abulegenov/Local_DEPLOY_with_SCRE
 ## Important Note
 Be aware that this is a vision and experience of a single ML/DL practicioner. If you have suggestions or find this tool insightful feel free to contact me anytime.
 Use the script as a template and integrate it with your own system.
+
+## Further Improvements
+It is suggested to integrate the Relational DB connection to manage dynamic data such as updates, dataset size and etc., but it is up to you and your team on how simple you want to keep things.
 
 ## Conclusion
 
